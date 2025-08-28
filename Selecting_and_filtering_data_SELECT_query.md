@@ -24,7 +24,7 @@
 Where students_count > 4 and duration > 10 Order by price DESC LIMIT 5;**
 
 Результат выполнения запроса:
-![Demo SQL 1](images/Screen-2.png)
+![Demo SQL 2](images/Screen-2.png)
 
 ### 3.
 
@@ -35,4 +35,4 @@ UNION
 (Select courses.name as Course_name, duration as Course_duration from courses Order by duration DESC Limit 3);**
 
 Результат выполнения запроса:
-![Demo SQL 1](images/Screen-3.png)
+![Demo SQL 3](images/Screen-3.png)
